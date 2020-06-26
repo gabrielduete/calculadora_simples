@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 8, 219);
+    background-color: rgb(152, 152, 246);
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: rgb(36, 46, 109);
+}
+
+section{
+    background-color: blue;
+    width: 650px;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 8px 8px 18px black;
+    margin: auto; 
+
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(36, 46, 109);
+    color: white;
+    height: 50px;
+}
+
+button{
+    width: 20%;
+    height: 100px;
+    margin: 3px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(76, 148, 243);
+    font-size: 50px;
+}
+
+textarea{
+    font-size: 4em;
+    resize: none;
+   
+}
+
+h1{
+    font-size: 70px;
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: monospace;
+}
+
+
+
+#igual{
+    position: absolute;
+    width: 9%;
+    height: 46%;
+    top: 374px;
+    left: 872px;
+    background-color: rgb(34, 34, 112);
+}
+
+
+#display{
+    width: 674px;
+    height: 80px;
+
+}
+
+#c{
+    background-color: rgb(133, 19, 19);
+}
+
+#cabecalho {
+    text-shadow: 5px 5px 10px black;
+    height: 100px;
+    width: 100%;
+    padding-top: 100px;
+    background-color: rgb(2, 2, 65);
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 98, 255);
+    border-radius: 5px;
+    
+}
