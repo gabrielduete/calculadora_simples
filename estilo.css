@@ -57,17 +57,16 @@ h1{
 
 
 #igual{
-    position: absolute;
-    width: 9%;
-    height: 46%;
-    top: 374px;
-    left: 872px;
+
+    width: 13%;
+    float: right;
+    height: 420px;
     background-color: rgb(34, 34, 112);
 }
 
 
 #display{
-    width: 674px;
+    width: 645px;
     height: 80px;
 
 }
