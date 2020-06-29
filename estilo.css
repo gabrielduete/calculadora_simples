@@ -104,3 +104,19 @@ button {
     width: 100%;
 
 }
+
+@media (max-width: 700px) {
+    #calculadora {
+        width: 80%;
+        padding: 2%;
+        margin-top: 15%
+    }
+
+    header {
+        max-height: 10%;
+    }
+    
+    header h1 {
+        font-size: 2em
+    }
+}
