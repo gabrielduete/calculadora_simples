@@ -11,54 +11,60 @@
 </head>
 
 <body>
-
     <header>
-         <h1>Calculadora Online</h1>
+        <h1>Calculadora Online</h1>
     </header>
-
 
     <section>
         <div id='calculadora'>
 
-            <textarea id='display' disabled rows="1"-+></textarea>
+            <textarea id='display' disabled rows="1" -+></textarea>
 
-            <div>
-            
-                <div>
-                    <button id='igual' onclick="result()">=</button>
+            <div class="actions">
+                <div class="left">
+                    <div>
+    
+                        <button onclick="clickNum(this)">1</button>
+                        <button onclick="clickNum(this)">2</button>
+                        <button onclick="clickNum(this)">3</button>
+                        <button onclick="operadores(this)">+</button>
+                    </div>
+    
+    
+                    <div>
+    
+                        <button onclick="clickNum(this)">4</button>
+                        <button onclick="clickNum(this)">5</button>
+                        <button onclick="clickNum(this)">6</button>
+                        <button onclick="operadores(this)">-</button>
+    
+                    </div>
+                    <div>
+    
+                        <button onclick="clickNum(this)">7</button>
+                        <button onclick="clickNum(this)">8</button>
+                        <button onclick="clickNum(this)">9</button>
+                        <button onclick="operadores(this)">*</button>
+    
+                    </div>
+                    <div>
+    
+                        <button onclick="clickNum(this)">0</button>
+                        <button onclick="clickNum(this)">.</button>
+                        <button id='c' onclick="limpar()">C</button>
+                        <button onclick="operadores(this)">/</button>
+    
+                    </div>
                 </div>
-                <button onclick="clickNum(this)">1</button>
-                <button onclick="clickNum(this)">2</button>
-                <button onclick="clickNum(this)">3</button>
-                <button onclick="operadores(this)">+</button>
-
+    
+                <div class="right">
+                        <button id='igual' onclick="result()">=</button>   
+                </div>
             </div>
-            <div>
 
-                <button onclick="clickNum(this)">4</button>
-                <button onclick="clickNum(this)">5</button>
-                <button onclick="clickNum(this)">6</button>
-                <button onclick="operadores(this)">-</button>
-
-            </div>
-            <div>
-
-                <button onclick="clickNum(this)">7</button>
-                <button onclick="clickNum(this)">8</button>
-                <button onclick="clickNum(this)">9</button>
-                <button onclick="operadores(this)">*</button>
-
-            </div>
-            <div>
-
-                <button onclick="clickNum(this)">0</button>
-                <button onclick="clickNum(this)">.</button>
-                <button id='c' onclick="limpar()">C</button>
-                <button onclick="operadores(this)">/</button>
-
+        </div>
 
     </section>
-
     <footer>
         <p>&copy; Copyright, 2020 - Todos os direitos reservados à Gabriel Duete</p>
     </footer>
